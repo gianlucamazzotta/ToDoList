@@ -2,8 +2,6 @@ const taskInput = document.getElementById('taskInput');
 const addButton = document.getElementById('addButton');
 const taskList = document.getElementById('taskList');
 
-addButton.addEventListener('click', addTask);
-
 function addTask() {
   const task = taskInput.value;
   if (task !== '') {
@@ -20,3 +18,6 @@ function deleteTask(event) {
   const li = event.target.closest('li');
   taskList.removeChild(li);
 }
+
+addButton.addEventListener('click', addTask);
+
