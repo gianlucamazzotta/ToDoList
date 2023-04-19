@@ -8,7 +8,7 @@ it can be deleted from the list.
 
 ## Getting started
 
-To get started with the application, simply download or clone the repository to your local machine. Once you have the code on your machine, open the index.html file in your browser.
+To get started with the application, simply download or clone the repository to your local machine. Once you have the code on your machine, open the index.html file in your browser, which is inside the 'src' folder .
 
 ## Technologies Used
 
